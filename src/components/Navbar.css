@@ -1,5 +1,20 @@
-.navbar .nav-link {
-    color: white !important;
-    margin-right: 15px;
-  }
-  
+.navbar {
+  display: flex;
+  justify-content: center; /* Center align items */
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  color: #f0ad4e !important; /* Highlight on hover */
+}

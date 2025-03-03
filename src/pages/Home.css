@@ -1,0 +1,58 @@
+/* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .text-primary {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #555;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+    color: #444;
+    margin-top: 10px;
+    max-width: 500px;
+    line-height: 1.5;
+  }
+  
+  /* Professional Summary Section */
+  .summary-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .summary-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  
+  .summary-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  

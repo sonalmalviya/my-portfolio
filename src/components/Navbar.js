@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"; // For custom styling
+import "./Navbar.css"; // Ensure you have styles
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">My Portfolio</Link>
-        <div>
-          <Link className="nav-link" to="/">Home</Link>
+        <div className="navbar-nav mx-auto"> {/* Center align items */}
+          <Link className="nav-link" to="/">About Me</Link>
           <Link className="nav-link" to="/projects">Projects</Link>
           <Link className="nav-link" to="/contact">Contact</Link>
         </div>

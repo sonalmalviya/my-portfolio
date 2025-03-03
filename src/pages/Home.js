@@ -1,27 +1,25 @@
 import React from "react";
-import styles from "./Home.module.css"; // Import the CSS Module
-
+import "./Home.css"; // Import the CSS file
 
 const Home = () => {
-    return (
-      <div className="container text-center mt-5">
-        <h1 className="text-primary">Hi, I'm Sonal Malviya 👋</h1>
-        <p className="lead">Actively looking for H1B visa sponsorship | React JS Developer| Front End Developer | UI Developer | Ex-TCSer</p>
-       
-        <p className="text-lg mt-4">Professional Summary :
-Experienced Senior Frontend Engineer with 9+ years in the industry, specializing in frontend infrastructure, UI development, and scalable web applications. Passionate about developer productivity, performance optimization, and scalable architecture. Proficient in React.js, Node.js, Webpack, Bazel, and frontend security best practices. Adept at collaborating with cross-functional teams to build high-performance enterprise applications.
-</p>
+  return (
+    <div className="home-container">
+      {/* Hero Section */}
+      <h1 className="text-primary">Hi, I'm Sonal Malviya 👋</h1>
+      <h4>Front-End Developer and AI Enthusiast</h4>
+      <p className="intro-text">
+        I bring simplicity to life through design and code, and I love doing it.
+      </p>
 
-<p className="text-lg mt-4">Technical Skills :
-•	Frontend Infrastructure: React.js, Node.js, Webpack, Babel, Redux, TypeScript, JavaScript (ES6+)
-•	Performance & Optimization: Code Splitting, Lazy Loading, Webpack Optimization, Caching Strategies
-•	Security & Observability: OWASP Secure Coding Practices, SAST/DAST, Performance Monitoring
-•	Development Tools: Git, Jest, Postman, Swagger, Docker, Agile Methodologies
-•	Build & Deployment: CI/CD (Jenkins, GitHub Actions), Micro Frontends, Monorepo Architecture
-</p>
+      {/* Professional Summary Section */}
+      <div className="summary-container">
+        <h2>Professional Summary</h2>
+        <p>
+      I am a front-end developer with <strong>9 years</strong> of experience in building elegant, user-friendly web applications. Passionate about AI, I love merging creativity with technology to craft seamless digital experiences. My expertise includes <strong>React.js, JavaScript, and modern front-end frameworks</strong>. Constantly learning, I aim to create efficient, scalable, and visually stunning applications.
+    </p>
       </div>
-    );
-  };
-  
-  export default Home;
-  
+    </div>
+  );
+};
+
+export default Home;
