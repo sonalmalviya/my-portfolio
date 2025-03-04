@@ -4,37 +4,45 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full screen height */
+    min-height: 100vh; /* Ensures full screen height */
     text-align: center;
-    padding: 5px;
     background-color: black;
-    margin-top: -20px;
-  }
-  
-  /* Hero Section */
-  .text-primary {
+}
+
+/* Hero Section */
+.text-primary {
     font-size: 62px;
     font-weight: bold;
     color: #3399ff !important;
-    margin-top: -20px;
-    transform: translateY(-20px);
-  }
-  
-  h3 {
-    font-size: 22px;
+    position: relative; /* Enables left/right movement */
+    left: 20px; /* Moves right */
+    top: -60px; /* Moves slightly up */
+    text-align: center;
+    display: inline-block; 
+}
+
+h4 {
+    font-size: 42px;
     color: white;
-  }
-  
-  .intro-text {
+    line-height: 1.4;
+    text-align: center; /* Ensure it's centered */
+    transform: translate(-20px, -50px);/* Move slightly upward */
+    display: block;
+    margin: 0 auto;
+}
+
+.intro-text {
     font-size: 18px;
     color: white;
-    margin-top: 10px;
-    max-width: 500px;
+    max-width: 600px;
     line-height: 1.5;
-  }
-  
-  /* Professional Summary Section */
-  .summary-container {
+    text-align: center;
+    display: inline-block;
+    margin-top: -40px; /* Move up */
+}
+
+/* Professional Summary Section */
+.summary-container {
     margin-top: 40px;
     padding: 20px;
     background-color: black;
@@ -42,48 +50,52 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     text-align: center;
-  }
-  
-  .summary-container h2 {
+}
+
+.summary-container h2 {
     font-size: 24px;
     font-weight: bold;
     background: linear-gradient(90deg, #3399ff, #00c6ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  
-  
-  .summary-container p {
+}
+
+.summary-container p {
     font-size: 18px;
     color: white;
     line-height: 1.6;
-  }
-  .button-wrapper {
+}
+
+/* Button Section */
+.button-wrapper {
     display: flex;
-    justify-content: space-between;
-    gap: 60px; /* Adds space between the button containers */
-  }
-  
-  .button-container {
-    background-color: #3399ff; /* Blue background for each container */
-    padding: 5px; /* Adds padding around the container */
-    border-radius: 10px; /* Optional: for rounded corners */
-  }
-  
-  .btn {
-    padding: 5px 5px;
-    background-color: #ffffff; /* White background for buttons */
-    color: white !important; /* Blue text color */
+    justify-content: center; /* Center buttons */
+    gap: 80px; /* Adds space between the button containers */
+    margin-top: 40px;
+    transform: translate(-20px, -30px);
+}
+
+.button-container {
+    background-color: #3399ff; /* Blue background */
+    padding: 5px; /* Adds padding */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: white; /* White button background */
+    color: #3399ff; /* Blue text */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #3399ff; /* Blue background on hover */
-    color: black !important; /* White text on hover */
-  }
-  
+    color: white; /* White text on hover */
+}

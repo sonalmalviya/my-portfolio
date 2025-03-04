@@ -5,12 +5,14 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* Hero Section */}
-      <h1 className="text-primary">Hi, I'm Sonal Malviya 👋</h1>
+      <section id="hero" className="hero-section">
+      <h1 className="text-primary" style={{ color: '#3399ff !important'}}>Hi, I'm Sonal Malviya 👋</h1>
       <h4>Front-End Developer and AI Enthusiast</h4>
       <p className="intro-text">
         I bring simplicity to life through design and code, and I love doing it.
 With 9 years of experience in mobile and web development, including 5 years in React.js, I build elegant, high-performance applications. I'm also passionate about AI and eager to explore opportunities to learn and grow in this field.
       </p>
+      </section>
       <div class="button-wrapper">
   <div class="button-container">
     <a href="#work" class="btn">Explore My Work</a>
