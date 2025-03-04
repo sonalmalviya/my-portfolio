@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
-  justify-content: center; /* Center align items */
+  justify-content: flex-end; /* Center align items */
+  text-align: right;
 }
 
 .navbar-nav {

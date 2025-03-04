@@ -6,24 +6,28 @@
     justify-content: center;
     height: 100vh; /* Full screen height */
     text-align: center;
-    padding: 20px;
+    padding: 5px;
+    background-color: black;
+    margin-top: -20px;
   }
   
   /* Hero Section */
   .text-primary {
-    font-size: 32px;
+    font-size: 62px;
     font-weight: bold;
-    color: #007bff;
+    color: #3399ff !important;
+    margin-top: -20px;
+    transform: translateY(-20px);
   }
   
   h3 {
     font-size: 22px;
-    color: #555;
+    color: white;
   }
   
   .intro-text {
     font-size: 18px;
-    color: #444;
+    color: white;
     margin-top: 10px;
     max-width: 500px;
     line-height: 1.5;
@@ -33,7 +37,7 @@
   .summary-container {
     margin-top: 40px;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 800px;
@@ -43,7 +47,7 @@
   .summary-container h2 {
     font-size: 24px;
     font-weight: bold;
-    background: linear-gradient(90deg, #007bff, #00c6ff);
+    background: linear-gradient(90deg, #3399ff, #00c6ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -52,7 +56,34 @@
   
   .summary-container p {
     font-size: 18px;
-    color: #555;
+    color: white;
     line-height: 1.6;
+  }
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px; /* Adds space between the button containers */
+  }
+  
+  .button-container {
+    background-color: #3399ff; /* Blue background for each container */
+    padding: 5px; /* Adds padding around the container */
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
+  .btn {
+    padding: 5px 5px;
+    background-color: #ffffff; /* White background for buttons */
+    color: white !important; /* Blue text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3399ff; /* Blue background on hover */
+    color: black !important; /* White text on hover */
   }
   

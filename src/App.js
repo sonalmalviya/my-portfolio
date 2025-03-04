@@ -5,7 +5,9 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import AboutMe from "./pages/AboutMe";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about me" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />

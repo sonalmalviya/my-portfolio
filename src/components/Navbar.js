@@ -7,7 +7,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <div className="navbar-nav mx-auto"> {/* Center align items */}
-          <Link className="nav-link" to="/">About Me</Link>
+          <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" to="/about me">About Me</Link>
           <Link className="nav-link" to="/projects">Projects</Link>
           <Link className="nav-link" to="/contact">Contact</Link>
         </div>
