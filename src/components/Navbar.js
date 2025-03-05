@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css"; // Ensure you have styles
 
 const Navbar = () => {
@@ -7,10 +6,10 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <div className="navbar-nav mx-auto"> {/* Center align items */}
-          <Link className="nav-link" to="/">Home</Link>
-          <Link className="nav-link" to="/about me">About Me</Link>
-          <Link className="nav-link" to="/projects">Projects</Link>
-          <Link className="nav-link" to="/contact">Contact</Link>
+          <a className="nav-link" href="#hero" to="/">Home</a>
+          <a className="nav-link" href="#about" to="/about me">About Me</a>
+          {/* <a className="nav-link" to="/projects">Projects</a>
+          <a className="nav-link" to="/contact">Contact</a> */}
         </div>
       </div>
     </nav>
