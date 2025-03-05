@@ -120,13 +120,12 @@ html {
   }
   
   .about-me-section h2 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 20px;
   }
   
   .about-me-section p {
     font-size: 16px;
-    line-height: 1.6;
     margin-bottom: 30px;
   }
   
@@ -145,24 +144,3 @@ html {
     text-align: center;
     font-weight: bold;
   }
-
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background-color: black; /* Dark gray */
-    color: white;
-}
-
-.skills-column {
-    text-align: left;
-    padding: 10px;
-}
-
-.skills-column h3 {
-    font-size: 20px;
-    color: #00bfff; /* Slightly lighter blue */
-}

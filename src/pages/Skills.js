@@ -6,7 +6,7 @@ const Skills = () => {
     "React.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "AngularJS",
     "Redux", "Context API", "Material-UI", "Bootstrap UI",
     "Lazy Loading", "Code Splitting", "Memoization", "Webpack",
-    "Jest"
+    "Jest", "React Native"
   ];
 
   const cloudDevTools = [
