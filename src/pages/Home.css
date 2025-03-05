@@ -145,3 +145,24 @@ html {
     text-align: center;
     font-weight: bold;
   }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: black; /* Dark gray */
+    color: white;
+}
+
+.skills-column {
+    text-align: left;
+    padding: 10px;
+}
+
+.skills-column h3 {
+    font-size: 20px;
+    color: #00bfff; /* Slightly lighter blue */
+}

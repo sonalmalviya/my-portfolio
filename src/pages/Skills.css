@@ -1,0 +1,39 @@
+.skills-columns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-column {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skills-column h3 {
+    font-size: 22px;
+    color: #3399ff;
+    margin-bottom: 15px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    background-color: #444;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.1);
+  }
+  
