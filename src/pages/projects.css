@@ -1,0 +1,73 @@
+/* Professional Experience Section Styling */
+.experience {
+    background-color: #34495e;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+}
+
+.experience-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.project ul li {
+    margin-bottom: 8px;
+}
+
+/* Optional hover effect */
+.experience-item:hover {
+    background-color: #2c3e50;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* For small screens (mobile responsiveness) */
+@media (max-width: 768px) {
+    .experience h2 {
+        font-size: 2rem;
+    }
+
+    .experience-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .project h4 {
+        font-size: 1.2rem;
+    }
+
+    .project ul li {
+        font-size: 0.9rem;
+    }
+}

@@ -41,31 +41,6 @@ h4 {
     margin-top: 160px; /* Move up */
 }
 
-/* Professional Summary Section */
-.summary-container {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: black;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    text-align: center;
-}
-
-.summary-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #3399ff, #00c6ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.summary-container p {
-    font-size: 18px;
-    color: white;
-    line-height: 1.6;
-}
-
 /* Button Section */
 .button-wrapper {
     display: flex;
@@ -102,45 +77,15 @@ h4 {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
   }
 
-  .about-me-section {
+  body {
     background-color: black;
-    padding: 50px 0;
-    margin-top: 140px;
-  }
-  
-  .about-me-section .container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid #333333 ; /* Gray boundary for the content */
-    border-radius: 10px;
-    padding: 60px;
-  }
-  
-  .about-me-section h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .about-me-section p {
-    font-size: 16px;
-    margin-bottom: 30px;
-  }
-  
-  .about-me-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .about-me-section ul li {
-    font-size: 16px;
-    margin: 5px 0;
-  }
+    color: white;
+}
 
-  #about-me h2 {
-    color: #3399ff; /* Choose your desired color */
-    text-align: center;
-    font-weight: bold;
-  }
+section {
+    
+    min-height: 100vh; /* Each section takes full screen */
+}

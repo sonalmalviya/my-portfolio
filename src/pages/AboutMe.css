@@ -1,0 +1,38 @@
+.about-me-section {
+    background-color: black;
+  }
+  
+  .about-me-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #333333 ; /* Gray boundary for the content */
+    border-radius: 10px;
+    padding: 60px;
+  }
+  
+  .about-me-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .about-me-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-me-section ul li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  #about-me h2 {
+    color: #3399ff; /* Choose your desired color */
+    text-align: center;
+    font-weight: bold;
+  }
