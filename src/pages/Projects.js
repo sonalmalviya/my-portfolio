@@ -13,29 +13,25 @@ const Projects = () => {
 
           <div className="project-grid">
             <div className="project-card">
-              <h4>Project: Tapestry ESI (Enterprise Sensor Integration) – Boeing</h4>
-              <ul>
-                <li>Led UI development for a smart middleware solution integrating real-time sensor data.</li>
-                <li>Developed interactive, map-centric dashboards using React.js, Redux, and Material UI.</li>
-                <li>Optimized performance by implementing lazy loading and dynamic imports.</li>
-              </ul>
+              <h4>Tapestry ESI – Boeing</h4>
+              <p>
+              Developed interactive, map-centric dashboards for real-time sensor data visualization using React.js, Redux, and Material UI. Optimized performance with lazy loading and dynamic imports, enhancing responsiveness and scalability for Boeing's smart middleware solution.
+            </p>
             </div>
             <div className="project-card">
-              <h4>Project: Policy Portal – Commonwealth Bank of Australia</h4>
-              <ul>
-                <li>Developed a policy management platform using React.js and SharePoint (SPFx).</li>
-                <li>Integrated secure authentication and role-based access control (RBAC).</li>
-              </ul>
+              <h4>Policy Portal – Commonwealth Bank of Australia</h4>
+              <p>
+              Designed and developed a policy management platform using React.js and SharePoint (SPFx), enabling seamless policy creation, review, and management. Integrated secure authentication and role-based access control (RBAC) to ensure data security and controlled access based on user roles.
+              </p>
             </div>
           </div>
 
           <div className="project-grid">
             <div className="project-card">
-              <h4>Project: Barclays Data Portal (BDP) – Barclays</h4>
-              <ul>
-                <li>Built scalable web applications using React.js, Jest, and micro frontend architecture.</li>
-                <li>Enhanced UX by implementing custom hooks and reusable UI components.</li>
-              </ul>
+              <h4>Barclays Data Portal – Barclays</h4>
+              <p>
+              Developed scalable web application from scratch using React.js, Jest, and a micro frontend architecture, ensuring modularity and maintainability. Improved user experience by implementing custom hooks and reusable UI components, enhancing efficiency and consistency across the platform.
+              </p>
             </div>
           </div>
         </div>
@@ -47,25 +43,23 @@ const Projects = () => {
 
           <div className="project-grid">
             <div className="project-card">
-              <h4>Project: HRMS (Digital HR Management System)</h4>
-              <ul>
-                <li>Developed React Native mobile applications for HR automation.</li>
-              </ul>
+              <h4>HRMS - TDG Product</h4>
+             <p>HRMS (Digital HR Management System) is a React Native mobile app that automates HR tasks like employee management, payroll, leave, attendance, and recruitment. It offers secure access, push notifications, and cross-platform compatibility for efficient HR operations on both iOS and Android.</p>
             </div>
             <div className="project-card">
-              <h4>Project: PulseRx (Doctor-Patient Interaction Platform)</h4>
-              <ul>
-                <li>Built Swift-based iOS applications to manage medical data.</li>
-              </ul>
+              <h4>PulseRx - TDG Product</h4>
+              <p>
+              PulseRx is a Swift-based iOS app that improves doctor-patient interaction by managing medical data. Patients can book appointments, view records, and communicate with doctors, while doctors can access patient history and track treatments, enhancing care and efficiency.
+              </p>
             </div>
           </div>
 
           <div className="project-grid">
             <div className="project-card">
-              <h4>Project: Discover Places (Navigation & Location Services)</h4>
-              <ul>
-                <li>Designed an iOS application for finding nearby services using GPS.</li>
-              </ul>
+              <h4>Discover Places - TDG Product</h4>
+              <p>
+              Discover Places is an iOS app that helps users find nearby services using GPS, offering features like real-time navigation, service details, and location-based search.
+              </p>
             </div>
           </div>
         </div>

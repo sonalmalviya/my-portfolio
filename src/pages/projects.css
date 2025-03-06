@@ -21,7 +21,7 @@
     border: 1px solid #333333 ; /* Gray boundary for the content */
     border-radius: 10px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 30px;
   }
   
   /* Experience Item */
@@ -37,13 +37,12 @@
     color: white;
     margin-bottom: 10px;
     font-weight: 100;
-    margin-top: 10px;
   }
   
   .experience-item p {
     font-size: 16px;
     color: white;
-   
+   margin-bottom: 2rem;
   }
   
   /* Project Grid Layout for 2 Cards per Row */
@@ -65,7 +64,7 @@
   
   .project-card h4 {
     font-size: 16px;
-    color: white;
+    color: #3399ff;
     transform: translate(0px, 15px) !important;
   }
   
@@ -77,6 +76,14 @@
     margin-top: 30px;
   }
   
+  .project-card p {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+    color: lightgray;
+    margin-top: 30px;
+  }
+
   .project-card ul li {
     margin-bottom: 8px;
   }
