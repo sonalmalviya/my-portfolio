@@ -112,3 +112,19 @@
     }
   }
   
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    background-color: #1a1a1a;
+    color: #3399ff;
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 200;
+    display: inline-block;
+  }
