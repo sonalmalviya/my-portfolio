@@ -1,5 +1,6 @@
 .about-me-section {
     background-color: black;
+    height: 120vh;
   }
   
   .about-me-section .container {
@@ -17,8 +18,10 @@
   }
   
   .about-me-section p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 30px;
+    color: lightgray;
+    
   }
   
   .about-me-section ul {

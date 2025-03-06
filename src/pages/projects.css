@@ -1,73 +1,107 @@
 /* Professional Experience Section Styling */
-.experience {
-    background-color: #34495e;
-    color: white;
-    padding: 40px 20px;
-    text-align: left;
-}
-
-.experience h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+.experience-section {
+    background-color: black;
+    margin-top: 100px 0;
+  }
+  
+  .experience-section h2 {
     text-align: center;
-}
-
-.experience-item {
-    margin-bottom: 40px;
-}
-
-.experience-item h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.experience-item p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h4 {
-    font-size: 1.3rem;
+    font-size: 28px;
+    color: #3399ff;
     font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Add space between experience items */
+    align-items: center;
+    border: 1px solid #333333 ; /* Gray boundary for the content */
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 60px;
+  }
+  
+  /* Experience Item */
+  .experience-item {
+    background-color: black;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h3 {
+    font-size: 18px;
+    color: white;
     margin-bottom: 10px;
-}
-
-.project ul {
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  
+  .experience-item p {
+    font-size: 16px;
+    color: white;
+   
+  }
+  
+  /* Project Grid Layout for 2 Cards per Row */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 20px;
+  }
+  
+  /* Project Card Styling */
+  .project-card {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #333333 ; /* Gray boundary for the content */
+    border-radius: 10px;
+  }
+  
+  .project-card h4 {
+    font-size: 16px;
+    color: white;
+    transform: translate(0px, 15px) !important;
+  }
+  
+  .project-card ul {
     list-style-type: disc;
     margin-left: 20px;
-    font-size: 1rem;
-}
-
-.project ul li {
+    font-size: 14px;
+    color: lightgray;
+    margin-top: 30px;
+  }
+  
+  .project-card ul li {
     margin-bottom: 8px;
-}
-
-/* Optional hover effect */
-.experience-item:hover {
-    background-color: #2c3e50;
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-
-/* For small screens (mobile responsiveness) */
-@media (max-width: 768px) {
-    .experience h2 {
-        font-size: 2rem;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: 1fr; /* Stack cards in a single column on small screens */
     }
-
+  
+    .experience-item {
+      width: 95%; /* Full width for small screens */
+      padding: 15px;
+    }
+  
     .experience-item h3 {
-        font-size: 1.5rem;
+      font-size: 1.4rem;
     }
-
-    .project h4 {
-        font-size: 1.2rem;
+  
+    .project-card h4 {
+      font-size: 1.2rem;
     }
-
-    .project ul li {
-        font-size: 0.9rem;
+  
+    .project-card ul li {
+      font-size: 0.9rem;
     }
-}
+  }
+  

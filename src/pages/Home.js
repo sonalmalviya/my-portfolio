@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AboutMe from "./AboutMe";
+import Contact from "./contact";
 
 const Home = () => {
   return (
@@ -17,13 +18,13 @@ const Home = () => {
       <h4>Front-End Developer and AI Enthusiast</h4>
       <p className="intro-text">
         I bring simplicity to life through design and code, and I love doing it.
-        I love merging creativity with technology to craft seamless digital experiences. My expertise includes React.js, JavaScript, and modern front-end frameworks. Constantly learning, I aim to create efficient, scalable, and visually stunning applications.
+       My expertise includes React.js, JavaScript, and modern front-end frameworks. Constantly learning, I aim to create efficient, scalable, and visually stunning applications.
  I'm also passionate about AI and eager to explore opportunities to learn and grow in this field.
       </p>
       
       <div class="button-wrapper">
   <div class="button-container">
-    <a href="#work" class="btn">Explore My Work</a>
+  <a href="#experience" className="btn">Explore My Work</a>
   </div>
   <div class="button-container">
     <a href="#contact" class="btn">Get In Touch</a>
@@ -35,7 +36,7 @@ const Home = () => {
  <AboutMe/>
 
 <Projects/>
-
+<Contact/>
     </div>
 
     <Footer/>

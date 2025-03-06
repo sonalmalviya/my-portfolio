@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: auto; /* Ensures full screen height */
+    min-height:100vh; /* Ensures full screen height */
     text-align: center;
     background-color: black;
 }
@@ -16,7 +16,7 @@
     color: #3399ff !important;
     position: relative; /* Enables left/right movement */
     left: 20px; /* Moves right */
-    top: 140px; /* Moves slightly up */
+    top: 200px; /* Moves slightly up */
     text-align: center;
     display: inline-block; 
 }
@@ -26,19 +26,18 @@ h4 {
     color: white;
     line-height: 1.4;
     text-align: center; /* Ensure it's centered */
-    transform: translate(-20px, 150px);/* Move slightly upward */
+    transform: translate(-20px, 200px) !important;/* Move slightly upward */
     display: block;
     margin: 0 auto;
 }
 
 .intro-text {
     font-size: 18px;
-    color: white;
+    color: lightgray;
     max-width: 600px;
-    line-height: 1.5;
     text-align: center;
     display: inline-block;
-    margin-top: 160px; /* Move up */
+    margin-top: 200px; /* Move up */
 }
 
 /* Button Section */
