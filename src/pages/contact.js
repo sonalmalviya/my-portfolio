@@ -15,7 +15,7 @@ const Contact = () => {
         </a>
 
         {/* LinkedIn Profile Button */}
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">
+        <a href="https://www.linkedin.com/in/sonal-malviya-b9824514a" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">
           <FaLinkedin className="linkedin-icon" /> Connect on LinkedIn
         </a>
       </div>
