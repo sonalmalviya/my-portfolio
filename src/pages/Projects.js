@@ -33,9 +33,7 @@ const Projects = () => {
           <div className="project-grid">
             <div className="project-card">
               <h4>Tapestry ESI – Boeing</h4>
-              <p>
-              Developed interactive, map-centric dashboards for real-time sensor data visualization using React.js, Redux, and Material UI. Optimized performance with lazy loading and dynamic imports, enhancing responsiveness and scalability for Boeing's smart middleware solution.
-            </p>
+              <p>Led UI development for Boeing's smart middleware solution, integrating real-time sensor data into interactive, map-centric dashboards using React.js, Redux, and Material UI. Optimized performance with lazy loading and dynamic imports, enhancing responsiveness and scalability for seamless data visualization.</p>
             <div className="skills-grid">
           {boeingTechSkills.map((skill, index) => (
             <span key={index} className="skill-tag">{skill}</span>
@@ -58,7 +56,7 @@ const Projects = () => {
           <div className="project-grid">
             <div className="project-card">
               <h4>Barclays Data Portal – Barclays</h4>
-              <p>he Barclays Data Portal is a scalable web application developed using React.js and micro-frontend architecture to provide seamless access to financial data and analytics. The platform features a modular design for easy maintainability, with custom hooks and reusable UI components to improve efficiency and consistency, enhancing the overall user experience.</p>
+             <p>I worked as a React.js developer on the Barclays Data Portal, contributing to the development of a data-driven web application that enabled users to access and visualize financial data. In addition to coding, I mentored and trained team members on React.js core concepts & best practices, improving the overall development process. My responsibilities included performance optimization and ensuring smooth integration with backend services for real-time data updates.</p>
               <div className="skills-grid">
           {barclaysTechSkills.map((skill, index) => (
             <span key={index} className="skill-tag">{skill}</span>
@@ -85,9 +83,7 @@ const Projects = () => {
             </div>
             <div className="project-card">
               <h4>PulseRx - TDG Product</h4>
-              <p>
-              PulseRx is a Swift-based iOS app that improves doctor-patient interaction by managing medical data. Patients can book appointments, view records, and communicate with doctors, while doctors can access patient history and track treatments, enhancing care and efficiency.
-              </p>
+              <p>As a mobile app developer for PulseRx, I contributed to the development of a Swift-based iOS app designed to improve doctor-patient interactions. The app allows patients to book appointments, view medical records, and communicate with doctors, while enabling doctors to track patient history and treatments. My role focused on implementing key features and optimizing the user experience to enhance both patient and doctor workflows.</p>
               <div className="skills-grid">
           {pulseRxTechSkills.map((skill, index) => (
             <span key={index} className="skill-tag">{skill}</span>
@@ -99,9 +95,7 @@ const Projects = () => {
           <div className="project-grid">
             <div className="project-card">
               <h4>Discover Places - TDG Product</h4>
-              <p>
-              Discover Places is an iOS app that helps users find nearby services using GPS, offering features like real-time navigation, service details, and location-based search.
-              </p>
+              <p>As a mobile app developer, I contributed to the development of Discover Places, an iOS app that helps users find nearby services using GPS. The app offers features like real-time navigation, service details, and location-based search. My role focused on implementing location-based features and optimizing user experience for seamless navigation.</p>
               <div className="skills-grid">
           {discoverPlacesTechSkills.map((skill, index) => (
             <span key={index} className="skill-tag">{skill}</span>
