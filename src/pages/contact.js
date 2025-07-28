@@ -10,7 +10,7 @@ const Contact = () => {
       
       <div className="contact-buttons">
         {/* Download Resume Button */}
-        <a href="/SonalMalviyaResume.pdf" download className="btn download-btn">
+        <a href="/sonalMalviyaResume.pdf" target="_blank" className="btn download-btn">
           Download Resume
         </a>
 
