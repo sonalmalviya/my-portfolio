@@ -8,8 +8,18 @@ const AboutMe = () => {
     <h2>About Me</h2>
      <div className="container">
      <p>
-             I am a front-end developer with <strong>9 years</strong> of experience in building elegant, user-friendly, and high-performance mobile & web applications. 
-             I have specialized in front-end development for the past 5 years, leading UI teams and building scalable web applications.
+             I am an experienced IT professional with 9 years of experience
+in software development, specializing in front-end
+development, Ul team leadership, and scalable web
+applications. Proficient in React.js, TypeScript,
+JavaScript, Redux, HTML5, CSS3, and SharePoint
+(SPFx). Skilled in designing high-performance web
+applications using modern frameworks, cloud
+technologies, and Al-driven solutions. Strong
+background in problem-solving, system design, and
+Agile methodologies. Passionate about continuous
+learning, innovation, and mentorship.
+
            </p>
        <Skills />
      </div>
