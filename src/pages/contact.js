@@ -10,7 +10,7 @@ const Contact = () => {
       
       <div className="contact-buttons">
         {/* Download Resume Button */}
-        <a href="/sonalMalviyaResume.pdf" target="_blank" className="btn download-btn">
+        <a href={`${process.env.PUBLIC_URL}/sonalMalviyaResume.pdf`} target="_blank" rel="noopener noreferrer" className="btn download-btn">
           Download Resume
         </a>
 
