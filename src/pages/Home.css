@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height:100vh !important; /* Ensures full screen height */
+    min-height:auto; /* Ensures full screen height */
     text-align: center;
     background-color: black;
 }
@@ -16,19 +16,17 @@
     color: #3399ff !important;
     position: relative; /* Enables left/right movement */
     left: 20px; /* Moves right */
-    top: 160px; /* Moves slightly up */
     text-align: center;
+    padding-top: 100px;
     display: inline-block; 
 }
 
 h4 {
     font-size: 42px;
     color: white;
-    line-height: 1.4;
     text-align: center; /* Ensure it's centered */
-    transform: translate(-20px, 160px) !important;/* Move slightly upward */
     display: block;
-    margin: 0 auto;
+    position: relative;
 }
 
 .intro-text {
@@ -37,7 +35,9 @@ h4 {
     max-width: 600px;
     text-align: center;
     display: inline-block;
-    margin-top: 180px; /* Move up */
+    position : relative;
+    top: 10px;
+    padding: 10px;
 }
 
 /* Button Section */
@@ -86,5 +86,54 @@ html {
 
 section {
     
-    min-height: 100vh; /* Each section takes full screen */
+    min-height: auto; /* Each section takes full screen */
+    padding-bottom: 100px;
+}
+
+/* ------------------------ */
+/* ✅ Responsive: Mobile ✅ */
+/* ------------------------ */
+@media (max-width: 768px) {
+  
+  .text-primary {
+    font-size: 32px;
+    position: relative;
+    left: auto;
+    top: auto;
+    text-align: center;
+    padding: 0 10px;
+    padding-top: 100px;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+    transform: none !important;
+  }
+
+  .intro-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+
+  .button-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    transform: none !important;
+  }
+
+  .button-container {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 16px;
+  }
 }
