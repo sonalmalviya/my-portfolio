@@ -1,5 +1,6 @@
 /* Fixed Navbar */
 .navbar {
+  position: sticky !important;
   top: 0;
   left: 0;
   width: 100%;
